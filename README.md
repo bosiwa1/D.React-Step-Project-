@@ -24,10 +24,10 @@ Open the .pkg file and follow the installer steps
 Verify installation in Terminal. 
 
 ------------------------------------------------------------------
-setp 3 creat proct folder and go open your interminal window 
+Step 3: Create a project folder and open your terminal window 
 ----------------------------------------------------------------------
-Setp 3  creact React with last vervison opf vite  , navigate your proct folder  type in terminal window 
-npm create vite@latest my-react-app     ok or enter .
+Step 3:  Create a  React project with the latest version of Vite, navigate your project folder  type in the terminal window 
+npm create vite@latest my-react-app     ok or enter.
 
 The command will ask a few questions:
 
@@ -36,20 +36,20 @@ Project name → press Enter (or type a new name)
 Framework → choose React
 
 Variant → choose JavaScript (not TypeScript if you want plain JS)
-so Vite will now generate your React project. done 
+So Vite will now generate your React project. done 
 
 ------------------------------------------------------------------
 4 , type 
 cd my-react-app 
 
-5, install npm command 
+5. Install the npm command 
 npm install
 
 6 , type  npm run dev 
 
 7,VITE v5.x.x  ready in 300ms
-Local:   http://localhost:5173/   so copy the URL and past it on your browers to see your page 
-if you want to stop runing , just type cobine control + c  and enter or ok 
+Local:   http://localhost:5173/,   so copy the URL and paste it in your browser to see your page 
+If you want to stop running, just type combine control + c  and enter or ok 
 
 
 

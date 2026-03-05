@@ -1,4 +1,4 @@
-# D.React-Step-Project-
+# D.React-Step-Project- +vite + TailwindCss 
 How to creat React Step Project 
 
 1 Install node on terminal vwindow in your computer type  , brew install node 
@@ -50,6 +50,32 @@ npm install
 7,VITE v5.x.x  ready in 300ms
 Local:   http://localhost:5173/,   so copy the URL and paste it in your browser to see your page 
 If you want to stop running, just type combine control + c  and enter or ok 
+
+----------------------------
+add now TailwindCss 
+got to this tailwindcss.com and click on Docs 
+https://tailwindcss.com/docs/installation/using-vite
+
+follow the step  , type in your terminal windows :
+=> npm install tailwindcss @tailwindcss/vite   
+it will create this fike (vite.config.ts)
+Configure the Vite plugin
+Add the @tailwindcss/vite plugin to your Vite configuration.
+
+import { defineConfig } from 'vite'
+import tailwindcss from '@tailwindcss/vite'
+export default defineConfig({
+  plugins: [
+    tailwindcss(),
+  ],
+})
+
+after this go to your Css file and clear up all content and 
+Add an @import to your CSS file that imports Tailwind CSS.
+=>  @import "tailwindcss";
+
+--------------
+
 
 
 

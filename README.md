@@ -73,9 +73,24 @@ export default defineConfig({
 })
 
 
+
 after this go to your Css file and clear up all content and 
 Add an @import to your CSS file that imports Tailwind CSS.
 =>  @import "tailwindcss";
+
+
+after write this code in app.jsx file 
+ <div>
+      <h1 className="text-3xl font-bold underline">
+        Hello world!
+      </h1>
+      <p>Vite + React</p>
+      <div className="card">
+        <button onClick={() => setCount((c) => c + 1)}>
+          count is {count}
+        </button>
+      </div>
+    </div>
 
 --------------
 

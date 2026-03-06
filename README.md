@@ -64,11 +64,14 @@ Add the @tailwindcss/vite plugin to your Vite configuration.
 
 import { defineConfig } from 'vite'
 import tailwindcss from '@tailwindcss/vite'
+import react from '@vitejs/plugin-react'
 export default defineConfig({
   plugins: [
+    react(),
     tailwindcss(),
   ],
 })
+
 
 after this go to your Css file and clear up all content and 
 Add an @import to your CSS file that imports Tailwind CSS.

@@ -80,15 +80,14 @@ Add an @import to your CSS file that imports Tailwind CSS.
 
 
 after write this code in app.jsx file 
- <div>
-      <h1 className="text-3xl font-bold underline">
-        Hello world!
-      </h1>
-      <p>Vite + React</p>
-      <div className="card">
-        <button onClick={() => setCount((c) => c + 1)}>
-          count is {count}
-        </button>
+
+  <div className="min-h-screen flex items-center justify-center">
+      <div className="flex flex-col items-center gap-4">
+        <h1 className="text-3xl font-bold underline">Hello world!</h1>
+        <p>Vite + React</p>
+        <div className="card">
+          <button onClick={() => setCount((c) => c + 1)}>count is {count}</button>
+        </div>
       </div>
     </div>
 
